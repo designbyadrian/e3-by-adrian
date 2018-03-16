@@ -1,12 +1,24 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const isDev = require('isdev');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const extractCSS = new ExtractTextPlugin({
   filename: 'app.css',
   allChunks: true,
   disable: isDev,
 });
+
+const copyPlugin = new CopyWebpackPlugin([
+  {
+    from: 'data.json',
+    toType: 'file',
+  },
+  {
+    from: 'src/assets',
+    to: 'assets'
+  }
+]);
 
 module.exports = {
   module: {
@@ -52,6 +64,7 @@ module.exports = {
   },
   plugins: [
     extractCSS,
+    copyPlugin,
     new HtmlWebPackPlugin({
       template: "./src/index.html",
       filename: "./index.html"

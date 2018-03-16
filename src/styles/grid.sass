@@ -1,0 +1,20 @@
+@import '~breakpoint-sass'
+@import '~breakpoint-slicer'
+
+$slicer-breakpoints: 0 400px 600px 800px 1050px
+
+.container
+  width: 100%
+  margin: 0 auto
+  padding-left: 20px
+  padding-right: 20px
+
+  +from(2)
+    padding-left: 40px
+    padding-right: 40px
+  +from(3)
+    padding-left: 20px
+    padding-right: 20px
+    width: 600px
+  +from(4)
+    width: 800px

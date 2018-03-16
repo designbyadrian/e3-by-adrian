@@ -1,0 +1,136 @@
+{
+  "shows":
+  [
+    {
+      "name": "E3 Expo",
+      "startTime": "2018-03-13T10:36:00-0000",
+      "endTime": "2018-03-13T10:40:00-0000",
+      "links": [
+        {
+          "url": "http://www.e3expo.com/",
+          "title": "Official",
+          "icon": ["fas", "home"]
+        }
+      ]
+    },
+    {
+      "name": "Bethesda",
+      "startTime": "2018-06-11T19:00:00-0700",
+      "endTime": "2018-06-11T21:00:00-0700",
+      "links": [
+        {
+          "url": "http://www.twitch.tv/bethesda",
+          "title": "Twitch",
+          "icon": ["fab", "twitch"]
+        },
+        {
+          "url": "http://www.bethesda.net/",
+          "title": "Official",
+          "icon": ["fas", "home"]
+        }
+      ]
+    },
+    {
+      "name": "EA",
+      "startTime": "2018-06-10T12:00:00-0700",
+      "endTime": "2018-06-10T14:00:00-0700",
+      "links": [
+        {
+            "url": "https://www.ea.com/eaplay2018",
+            "title": "Live Stream",
+            "icon": ["fas", "video"]
+        },
+        {
+          "url": "http://www.twitch.tv/ea",
+          "title": "Twitch",
+          "icon": ["fab", "twitch"]
+        },
+        {
+            "url": "http://www.ea.com/",
+            "title": "Official",
+            "icon": ["fas", "home"]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "startTime": "2018-06-11T14:00:00-0700",
+      "endTime": "2018-06-11T16:00:00-0700",
+      "links": [
+        {
+          "url": "https://www.twitch.tv/xbox",
+          "title": "Twitch",
+          "icon": ["fab", "twitch"]
+        },{
+          "url": "http://www.xbox.com/",
+          "title": "Xbox.com",
+          "icon": ["fas", "home"]
+        }
+      ]
+    },
+    {
+        "name": "Nintendo",
+        "startTime": "2018-06-13T09:00:00-0700",
+        "endTime": "2018-06-13T11:00:00-0700",
+        "links": [
+            {
+              "url": "http://www.twitch.tv/nintendo",
+              "title": "Twitch",
+              "icon": ["fab", "twitch"]
+            },
+            {
+                "url": "http://e3.nintendo.com/",
+                "title": "Official",
+                "icon": ["fas", "home"]
+            }
+        ]
+    },
+    {
+        "name": "Sony",
+        "startTime": "2018-06-12T18:00:00-0700",
+        "endTime": "2018-06-12T20:00:00-0700",
+        "links": [
+            {
+                "url": "http://live.playstation.com",
+                "title": "Live Stream",
+                "icon": ["fas", "video"]
+            },
+            {
+                "url": "http://e3.playstation.com",
+                "title": "Official",
+                "icon": ["fas", "home"]
+            }
+        ]
+    },
+    {
+        "name": "Ubisoft",
+        "startTime": "2018-06-12T13:00:00-0700",
+        "endTime": "2018-06-12T15:00:00-0700",
+        "links": [
+          {
+            "url": "https://www.twitch.tv/ubisoft",
+            "title": "Twitch",
+            "icon": ["fab", "twitch"]
+          }
+        ]
+    },
+    {
+        "name": "PC Gaming Show",
+        "startTime": "2018-06-12T10:00:00-0700",
+        "endTime": "2018-06-12T12:00:00-0700",
+        "image": "img/pc-gaming-logo.svg",
+        "links": [
+            {
+              "url": "http://www.twitch.tv/pcgamer",
+              "title": "Twitch",
+              "icon": ["fab", "twitch"]
+            },
+            {
+                "url": "http://www.pcgamingshow.com/",
+                "title": "Official",
+                "icon": ["fas", "home"]
+            }
+        ]
+    }
+  ]
+}
